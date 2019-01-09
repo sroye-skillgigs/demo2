@@ -7,6 +7,24 @@ app.get('/', function(req, res) {
   });
 });
 
+app.get('/administration', function (req, res) {
+  res.send({
+    "Output": "Hello Administrator!"
+  });
+});
+
+app.get('/employer', function (req, res) {
+  res.send({
+    "Output": "Hello Employer!"
+  });
+});
+
+app.get('/talent', function (req, res) {
+  res.send({
+    "Output": "Hello Talent!"
+  });
+});
+
 app.post('/', function(req, res) {
   res.send({
     "Output": "Hello World!"
