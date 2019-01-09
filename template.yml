@@ -45,17 +45,17 @@ Resources:
         GetEvent:
           Type: Api
           Properties:
-            Path: /administration
+            Path: administration
             Method: get
         GetEvent:
           Type: Api
           Properties:
-            Path: /employer
+            Path: employer
             Method: get
         GetEvent:
           Type: Api
           Properties:
-            Path: /talent
+            Path: talent
             Method: get
         PostEvent:
           Type: Api
